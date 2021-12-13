@@ -1,0 +1,21 @@
+/* @import url('~@vizia/vizia-css/build/vizia-style.min.css'); */
+
+:root {
+    --viz-color-negative: hsl(0, 64%, 57%);
+    --viz-measure-base: 0.1875rem;
+    --viz-measure-gutter: 1.5rem;
+    --viz-type-face-base: Roboto, sans-serif;
+    --viz-type-weight-regular: 400;
+    --viz-type-ratio-tight: calc(5 / 6);
+}
+
+body {
+    align-items: center;
+    background-color: #F6FAFA;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 150px;
+    width: 100vw;
+}
